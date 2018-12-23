@@ -26,7 +26,7 @@ namespace Helptrick.ViewModel
         /// <summary>
         /// Initializes a new instance of the ViewModelLocator class.
         /// </summary>
-        public ViewModelLocator()
+        protected ViewModelLocator()
         {
             ServiceLocator.SetLocatorProvider(() => SimpleIoc.Default);
 
