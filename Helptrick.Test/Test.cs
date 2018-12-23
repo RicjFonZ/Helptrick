@@ -9,7 +9,7 @@ namespace Helptrick.Test
         [Test]
         public void Test1()
         {
-            Assert.AreEqual("teste", TestClass.GetString());
+            Assert.AreEqual("teste2", TestClass.GetString());
 
         }
     }
