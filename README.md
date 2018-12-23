@@ -1,1 +1,1 @@
-# -Helptrick
+# Helptrick
