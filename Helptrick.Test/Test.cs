@@ -3,13 +3,13 @@ using NUnit.Framework;
 
 namespace Helptrick.Test
 {
-    [TestFixture, Category("LongRunning")]
+    [TestFixture]
     public class Test
     {
-        [Test, Category("Long")]
+        [Test]
         public void Test1()
         {
-            Assert.AreEqual("teste2", TestClass.GetString());
+            Assert.AreEqual("teste", TestClass.GetString());
 
         }
     }

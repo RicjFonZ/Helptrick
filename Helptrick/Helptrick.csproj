@@ -91,6 +91,23 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Model\Achievements\Achievement.cs" />
+    <Compile Include="Model\Achievements\AchievementsData.cs" />
+    <Compile Include="Model\Challenges\Country.cs" />
+    <Compile Include="Model\CommonData\ArenaInfo.cs" />
+    <Compile Include="Model\Arena\ArenaDetailsData.cs" />
+    <Compile Include="Model\Arena\Capacity.cs" />
+    <Compile Include="Model\Arena\League.cs" />
+    <Compile Include="Model\Arena\Region.cs" />
+    <Compile Include="Model\Arena\Team.cs" />
+    <Compile Include="Model\Avatars\Avatar.cs" />
+    <Compile Include="Model\Avatars\AvatarsData.cs" />
+    <Compile Include="Model\Avatars\Layer.cs" />
+    <Compile Include="Model\Avatars\Player.cs" />
+    <Compile Include="Model\CommonData\BaseHattrickData.cs" />
+    <Compile Include="Model\Challenges\Challenges.cs" />
+    <Compile Include="Model\Challenges\ChallengesData.cs" />
+    <Compile Include="Model\Challenges\Opponent.cs" />
     <Compile Include="ViewModel\MainViewModel.cs" />
     <Compile Include="ViewModel\TestClass.cs" />
     <Compile Include="ViewModel\ViewModelLocator.cs" />
@@ -133,6 +150,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Services\Implementation\" />
+    <Folder Include="Views\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

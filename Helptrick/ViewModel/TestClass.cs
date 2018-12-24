@@ -1,11 +1,11 @@
 ﻿namespace Helptrick.ViewModel
 {
-    public class TestClass
+    public static class TestClass
     {
 
         public static string GetString()
         {
-            var teste = "teste";
+            const string teste = "teste";
 
             return teste;
         }
