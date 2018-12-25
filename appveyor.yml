@@ -2,5 +2,3 @@ version: 1.0.{build}
 image: Visual Studio 2017
 build_script:
 - cmd: nuget restore
-test_script:
-- cmd: nunit3-console Helptrick.Test\bin\Release\Helptrick.Test.dll --result=myresults.xml;format=AppVeyor
