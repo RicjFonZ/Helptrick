@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helptrick", "Helptrick\Help
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helptrick.Test", "Helptrick.Test\Helptrick.Test.csproj", "{E6127B86-2134-4D31-9D3D-BCBC0789CD77}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{7D3E3374-EA29-4862-8B38-B5E5E09DD850}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{E6127B86-2134-4D31-9D3D-BCBC0789CD77}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E6127B86-2134-4D31-9D3D-BCBC0789CD77}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E6127B86-2134-4D31-9D3D-BCBC0789CD77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D3E3374-EA29-4862-8B38-B5E5E09DD850}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D3E3374-EA29-4862-8B38-B5E5E09DD850}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D3E3374-EA29-4862-8B38-B5E5E09DD850}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D3E3374-EA29-4862-8B38-B5E5E09DD850}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
