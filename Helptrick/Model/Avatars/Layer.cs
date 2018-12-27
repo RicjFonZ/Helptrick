@@ -5,19 +5,18 @@ namespace Helptrick.Model.Avatars
     internal abstract class Layer
     {
         /// <summary>
-        ///    x-coordinate of image layer
+        ///     x-coordinate of image layer
         /// </summary>
         public int X { get; set; }
 
         /// <summary>
-        ///    y-coordinate of image layer
+        ///     y-coordinate of image layer
         /// </summary>
         public int Y { get; set; }
 
         /// <summary>
-        ///    The URL to the bodypart item.
+        ///     The URL to the bodypart item.
         /// </summary>
         public Uri Image { get; set; }
-
     }
 }
