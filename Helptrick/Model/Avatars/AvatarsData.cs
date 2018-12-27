@@ -16,6 +16,6 @@ namespace Helptrick.Model.Avatars
         /// <summary>
         ///    Container for the list of players.
         /// </summary>
-        public List<Player> Players { get; set; } = new List<Player>();
+        public List<AvatarPlayer> Players { get; set; } = new List<AvatarPlayer>();
     }
 }

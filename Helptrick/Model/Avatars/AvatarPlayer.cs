@@ -3,7 +3,7 @@
     /// <summary>
     ///    Container for a player.
     /// </summary>
-    internal abstract class Player
+    internal abstract class AvatarPlayer
     {
         /// <summary>
         ///    The globally unique PlayerID.
