@@ -124,6 +124,8 @@
     <Compile Include="Model\Fans\FansData.cs" />
     <Compile Include="Model\Fans\PlayedMatches.cs" />
     <Compile Include="Model\Fans\UpcomingMatches.cs" />
+    <Compile Include="Model\HallOfFame\HallOfFameData.cs" />
+    <Compile Include="Model\HallOfFame\Player.cs" />
     <Compile Include="ViewModel\MainViewModel.cs" />
     <Compile Include="ViewModel\TestClass.cs" />
     <Compile Include="ViewModel\ViewModelLocator.cs" />
