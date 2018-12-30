@@ -2,8 +2,3 @@ version: 1.0.{build}
 image: Visual Studio 2017
 build_script:
 - cmd: nuget restore
-deploy:
-- provider: GitHub
-  auth_token:
-    secure: 17ifkZxMozw+Co/UsXtk0AQ+ymrbMjgjIuXxEfJKamE6p6etgeXkNUP+1DKQu0wo
-  prerelease: true
