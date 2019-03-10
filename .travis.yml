@@ -2,5 +2,4 @@ language: csharp
 solution: Helptrick.sln
 install:
   - nuget # lets get version number
-  - nuget restore Helptrick.sln -Verbosity detailed
-  - nuget update Helptrick.sln -Verbosity detailed
+  - nuget restore Helptrick.sln
