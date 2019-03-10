@@ -1,6 +1,4 @@
-﻿using Helptrick.Model.CommonData;
-
-namespace Helptrick.Model.Arena
+﻿namespace Helptrick.Model.Arena
 {
     /// <summary>
     ///     Information about specific arenas, supporter statistics and the largest

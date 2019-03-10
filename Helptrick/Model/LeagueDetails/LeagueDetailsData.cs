@@ -1,5 +1,4 @@
-﻿using Helptrick.Model.CommonData;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
 namespace Helptrick.Model.LeagueDetails
 {
@@ -25,14 +24,9 @@ namespace Helptrick.Model.LeagueDetails
         public int MaxLevel { get; set; }
 
         /// <summary>
-        ///     The ID number of the LeagueLevelUnit.
+        ///     Container for the LeagueLevelUnit ('series').
         /// </summary>
-        public int LeagueLevelUnitId { get; set; }
-
-        /// <summary>
-        ///     The name of the LeagueLevelUnit.
-        /// </summary>
-        public int LeagueLevelUnitName { get; set; }
+        public LeagueLevelUnit LeagueLevelUnit { get; set; } = new LeagueLevelUnit();
 
         /// <summary>
         ///     Current match round.

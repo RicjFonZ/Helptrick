@@ -1,5 +1,4 @@
-﻿using Helptrick.Model.CommonData;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
 namespace Helptrick.Model.Avatars
 {

@@ -1,9 +1,8 @@
-﻿using Helptrick.Model.CommonData;
-
+﻿
 namespace Helptrick.Model.Challenges
 {
     /// <summary>
-    ///     Challenges
+    ///     Challenge
     /// </summary>
     internal class ChallengesData : BaseHattrickData
     {
@@ -20,12 +19,12 @@ namespace Helptrick.Model.Challenges
         /// <summary>
         ///     Container for the challenges that the user has done.
         /// </summary>
-        public Challenges ChallengesByMe { get; set; } = new Challenges();
+        public Challenge ChallengesByMe { get; set; } = new Challenge();
 
         /// <summary>
         ///     Container for the offers of friendlies that other
         ///     teams have given to the logged on user's team.
         /// </summary>
-        public Challenges OffersByOthers { get; set; } = new Challenges();
+        public Challenge OffersByOthers { get; set; } = new Challenge();
     }
 }

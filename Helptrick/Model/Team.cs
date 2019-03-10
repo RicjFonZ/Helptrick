@@ -1,9 +1,9 @@
-﻿namespace Helptrick.Model.Club
+﻿namespace Helptrick.Model
 {
-    internal class ClubData : BaseHattrickData
+    internal class Team
     {
         /// <summary>
-        ///     The globally unique TeamID.
+        ///     The globally unique teamID.
         /// </summary>
         public int TeamId { get; set; }
 
@@ -13,8 +13,8 @@
         public string TeamName { get; set; }
 
         /// <summary>
-        ///     Container for the staff.
+        ///     The short team name of the Home team in the match.
         /// </summary>
-        public Staff Staff { get; set; } = new Staff();
+        public string HomeTeamShortName { get; set; }
     }
 }

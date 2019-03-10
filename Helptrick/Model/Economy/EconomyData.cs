@@ -1,6 +1,4 @@
-﻿using Helptrick.Model.CommonData;
-
-namespace Helptrick.Model.Economy
+﻿namespace Helptrick.Model.Economy
 {
     /// <summary>
     ///     Economy

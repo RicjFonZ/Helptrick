@@ -1,5 +1,4 @@
-﻿using Helptrick.Model.CommonData;
-using System;
+﻿using System;
 using System.Collections.Generic;
 
 namespace Helptrick.Model.GlobalLadder
